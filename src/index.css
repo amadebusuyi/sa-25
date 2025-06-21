@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p,
+.font-body {
+  font-family: 'Inter';
+  font-size: 16px;
+}
+
+.font-heading {
+  font-family: 'Inknut Antiqua';
+}
