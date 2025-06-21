@@ -1,5 +1,6 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 import React from 'react'
+import Flyer from '../assets/flyer.png'
 
 export default function WhySection() {
   return (
@@ -42,8 +43,8 @@ export default function WhySection() {
 
         <div className="mt-10">
           <img
-            src="src/assets/flyer.png"
-            alt="Boy Peace Sign"
+            src={Flyer}
+            alt="Flyer for Summer Academy 2025"
             className="w-full rounded-xl object-cover"
           />
         </div>

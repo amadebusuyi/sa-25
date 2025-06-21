@@ -1,18 +1,16 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 import React from 'react'
+import HeroBg from '../assets/hero-bg.png'
+import Logo from '../assets/logo.png'
 
 export default function HeroSection({ onApplyClick }) {
   return (
     <section
       className="relative flex min-h-screen flex-col justify-between bg-cover bg-center text-white"
-      style={{ backgroundImage: 'url(/src/assets/hero-bg.png)' }}
+      style={{ backgroundImage: `url('${HeroBg}')` }}
     >
       <div className="flex items-center justify-between p-4 md:px-10">
-        <img
-          src="/src/assets/logo.png"
-          alt="Glory Realms Logo"
-          className="h-6 md:h-8"
-        />
+        <img src={Logo} alt="Glory Realms Logo" className="h-6 md:h-8" />
         <button
           onClick={onApplyClick}
           className="font-heading rounded-full bg-white px-5 py-2 text-sm text-black transition hover:bg-gray-200"

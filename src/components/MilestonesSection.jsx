@@ -1,12 +1,13 @@
 /* eslint-disable tailwindcss/migration-from-tailwind-2 */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
+import Background from '../assets/bg-2.png'
 
 const MilestonesSection = ({ onApplyClick }) => {
   return (
     <div
       className="flex min-h-screen w-full items-center justify-center bg-cover bg-center px-6 py-16"
-      style={{ backgroundImage: "url('/src/assets/bg-2.png')" }}
+      style={{ backgroundImage: `url('${Background}')` }}
     >
       <div className="flex w-full max-w-6xl flex-col items-start justify-between gap-10 text-white md:flex-row">
         <div className="w-full md:w-1/2">

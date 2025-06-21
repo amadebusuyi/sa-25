@@ -1,5 +1,6 @@
 import React from 'react'
 import { Mail, MapPin, Phone, Instagram } from 'lucide-react'
+import Logo from '../assets/logo.png'
 
 const Footer = () => {
   return (
@@ -7,11 +8,7 @@ const Footer = () => {
       <div className="mx-auto flex max-w-6xl flex-col justify-between gap-10 md:flex-row">
         <div className="space-y-4 md:w-2/3">
           <div className="flex items-center gap-2">
-            <img
-              src="/src/assets/logo.png"
-              alt="Glory Realms Logo"
-              className="h-6"
-            />
+            <img src={Logo} alt="Glory Realms Logo" className="h-6" />
           </div>
           <p className="max-w-xl text-sm text-white/70">
             Glory Realms Teens Ministry (GRTM) is the teens ministry of Glory
