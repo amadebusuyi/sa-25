@@ -29,7 +29,7 @@ const MilestonesSection = ({ onApplyClick }) => {
         <div className="w-full space-y-3 text-center md:w-1/2 md:pl-[100px]">
           <div className="rounded-xl border border-white/30 bg-white/10 p-6">
             <p className="mb-1 text-sm text-white/80">Registration Opens</p>
-            <p className="text-xl font-semibold">June 15, 2025</p>
+            <p className="text-xl font-semibold">June 22, 2025</p>
           </div>
           <div className="mx-2 inline-block h-[30px] border-l border-gray-300" />
           <div className="rounded-xl border border-white/30 bg-white/10 p-6">

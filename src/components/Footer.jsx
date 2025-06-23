@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="space-y-3 text-white/70 md:w-1/3">
           <p className="mb-2 font-semibold">Contact Us @</p>
           <div className="flex items-start gap-2">
-            <MapPin className="mt-1 size-8 md:size-6" />
+            <MapPin className="mt-1 size-4" />
             <p className="text-sm">
               12, Efon Alaye close, Off Sule Olajide Street, Ojodu Berger, Lagos
             </p>
